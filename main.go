@@ -20,7 +20,7 @@ func MostrarEstadisticas() {
 		return
 	}
 
-	total := 0
+	total := 0.0
 
 	for i := 0; i < len(subtotales); i++ {
 		total += subtotales[i]
